@@ -21,7 +21,7 @@ const Navbar = () => {
                         </span>
                         <br />
                         <span>
-                            Norpulat o'g'li
+                            Norpulat
                         </span>
                     </p>
                 </Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
                 <li className='text-[16px] font-[500] mt-[10px]'>
                     <Link to="/experience" className='flex items-center gap-[5px]'>
                         <GiProgression className='text-[18px]' />
-                        Expration
+                        Experience
                     </Link>
                 </li>
                 <li className='text-[16px] font-[500] mt-[10px]'>
