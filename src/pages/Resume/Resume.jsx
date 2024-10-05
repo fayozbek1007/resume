@@ -12,6 +12,13 @@ const Resume = () => {
                 <p>Phone: <span className='text-gray-700'>+998 97 410 07 60</span></p>
                 <p>Location: <span className='text-gray-700'>Toshkent, Uzbekistan</span></p>
 
+                <h3 className='text-lg font-[500] text-gray-500 mt-5'>About</h3>
+
+                <div className='w-[800px] px-[15px] pt-[10px]'>
+                    <p className='text-gray-600 font-[500]'>Hello, my name is Nishanov Fayozbek. I was born on October 7, 2004 in Guzor district of Kashkadarya region. In 2022, I entered the part-time faculty of Tashkent University of Information Technologies and am currently a 3rd-year student. I studied programming at Soff Study. I am Front-End Developer and have 6 months of experience. During the course, we worked on many sites. For example, we completed The Movie Database (TMDB), GreenShop, Ht-med.uz and other projects. I am trying to work on big projects. Because big and realistic projects teach me a lot.
+                    </p>
+                </div>
+
                 <h3 className='text-lg font-[500] text-gray-500 mt-5'>Skills</h3>
                 <ul className='list-disc ml-5'>
                     <li className='text-[16px] font-[500] text-red-500'>HTML</li>
@@ -23,11 +30,6 @@ const Resume = () => {
                     <li className='text-[16px] font-[500] text-[#0000008b]'>Next.js</li>
                 </ul>
 
-                <h3 className='text-lg font-[500] text-gray-500 mt-5'>Experience</h3>
-                <div className='list-disc ml-5'>
-                    <p className='text-gray-600 font-[500]'>I am Front-End Developer and have 6 months of experience. During the course, we worked on many sites. For example, we completed The Movie Database (TMDB), GreenShop, Ht-med.uz and other projects. I mainly made projects in React.js and Next.js. I used Tailwenda.css for css. I am also trying to work on big projects. Because big and real projects teach me a lot.
-                    </p>
-                </div>
 
                 <h3 className='text-lg font-[500] text-gray-500 mt-5'>Education</h3>
                 <div className='list-disc ml-5'>
@@ -63,7 +65,7 @@ const Resume = () => {
 
                 <h3 className='text-lg font-[500] text-gray-500 mt-5'>References</h3>
                 <div className='list-disc ml-5'>
-                    <p className='text-gray-600 font-[500]'>Certificate from Soff Study training center</p>
+                    <p className='text-gray-600 font-[500]'>Certificate from Soff Study training center: <Link target='_blank' to={"https://soffhub.uz/"}>https://soffhub.uz/</Link></p>
                 </div>
             </div>
         </div>
